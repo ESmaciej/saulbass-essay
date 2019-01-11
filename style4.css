@@ -1,0 +1,222 @@
+/* ----------------- CSS RESET ------------------- */
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  line-height: 1em;
+}
+
+/* ------- MAIN STYLING ----------- */
+
+body {
+    width: 100%;
+    max-width: 670px;
+    margin: auto;
+    background: rgba(6,6,6,1);
+    color: rgba(207,207,207,1);
+    font-family: 'Libre Baskerville', serif;
+}
+/* ------------------ typography ----------------------------*/
+h1, h2, h3 {
+  font-weight: normal;
+  color: rgba(301,301,301,1);
+  text-align: center;
+}
+
+p, li, blockquote { 
+    margin-top: 0.8em;
+  line-height: 1.5
+}
+
+p {
+margin-bottom: 1.1em;
+ margin-top: 0.8em;
+    font-size: 0.91em;
+ 
+}
+
+h1 {
+  font-size: 3.7em;
+  margin-top: 1em;
+  margin-bottom: 0.27em;
+text-shadow: 
+
+}
+
+h2 {
+  font-size: 2.827em;
+  margin: 0.5em 0
+}
+
+h3 {
+  font-size: 1.999em;
+    margin-top: 0.9em;
+    margin-bottom: 0.3em;
+      color: rgba(240,240,240,1);
+}
+
+blockquote {
+  hanging-punctuation: first;
+  text-indent: -0.5em;
+}
+
+header h2 {
+  font-style: italic;
+  font-size: 2.25em;
+    line-height: 1.5;
+  margin-top: 0.1em;
+  color: #333;
+}
+
+.eaves {
+  color: grey;
+}
+
+/* ----------- STYLE LINKS -------------------*/
+
+a {
+color: rgba(204, 0, 102, 0.6);
+text-decoration: none;
+}
+
+a:hover {
+color: rgba(204, 0, 102, 1);
+  border-bottom: 1px dotted;
+}
+
+/* --------------- NAVIGATION --------------------*/
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  background-color: rgba(204, 0, 102, 0.6);
+  padding: 1em 0;
+  font-size: 0.75em;
+}
+
+nav ul {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 20px;
+}
+
+nav a:link {
+  color: #fff;
+}
+
+nav a:visited {
+    color: rgba(207,207,207,1);
+}
+nav a:hover {
+  border-bottom: none;
+  color: black;
+        transition: all 0.3s ease-in-out;
+    transform: scale(1.3);
+}
+
+/* ----------------BLOCKQUOTE ---------------------*/
+blockquote {
+  padding: 1em 0 2em 0;
+  font-size: 1.15em;
+  line-height: 1.3em;
+  color: #777;
+}
+
+/* ---------------- INTERACTIVE IMAGES ------------*/
+img {
+  display: block;
+  margin: 1em auto;
+  padding: 0;
+  max-width: 100%;
+}
+
+
+/* ------------------ TABLE ------------ */
+table {
+display: table;
+border-collapse: collapse;
+border-spacing: 1px;
+margin-bottom: 1em;
+margin-right: 100px;
+    width: 10%;
+    border: 1px;
+}
+
+caption {
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+}
+
+th {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    background: #c06;
+}
+
+th, td {
+    padding: .4em;
+}
+
+table, td {
+background: #dididi;
+    border: 1px solid #fff;
+}
+
+/* ---------------- FOOTER -------------------*/
+
+footer{
+  text-align: center;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  padding: 2em 0;
+}
+
+hr {
+  margin: 1em 0;
+  height: 1px;
+  background-color: grey;
+  color: grey;
+  border: 0 none;
+}
+
+.connections {
+    position: center;
+}
+
+.conections ul {
+    margin: 0;
+    padding: 0;
+}
+
+.connections li {
+    margin: 0 15px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.connections img {
+    opacity: 0.5;
+    border: none;
+}
+
+.connections a:hover img{
+    opacity: 1.0;
+    border-bottom: none;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.2);
+}
+
+
+
